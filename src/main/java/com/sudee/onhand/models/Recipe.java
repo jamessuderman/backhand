@@ -1,9 +1,3 @@
-/*
- *   GEODynamics
- *   Author - James Suderman
- *   Date - 08/10/2018
- */
-
 package com.sudee.onhand.models;
 
 import lombok.Data;
@@ -13,6 +7,7 @@ import java.util.*;
 @Data
 public class Recipe {
 
+    private UUID id = UUID.randomUUID();
     private String name;
     private String cuisine;
     private int stars;
